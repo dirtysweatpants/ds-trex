@@ -1,0 +1,61 @@
+/*-------Global Start---------------------------------------------------------------------------------*/
+.nav_icon {
+  -webkit-transform: scale(0.5) !important; /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.5) !important; /* FF3.5+ */
+      -ms-transform: scale(0.5) !important; /* IE9 */
+       -o-transform: scale(0.5) !important; /* Opera 10.5+ */
+          transform: scale(0.5) !important;
+             /* IE6–IE9 */
+             filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand') !important;
+}​
+.category_ttp b {line-height: 0px !important;}
+/*-------Global End---------------------------------------------------------------------------------*/
+
+
+
+/*-------Taboola Start---------------------------------------------------------------------------------*/
+/*test*/
+#ad7280{width:728px;min-height:90px;}
+#ad3000,#ad3001, #ad3002{width:300px;min-height:90px;}
+#ad4000{width:400px;min-height:90px;}
+/*test*/
+
+.trc_desktop_disclosure_link,.trc_mobile_disclosure_link{display:none !important}
+.trc_rbox_header_span{display:none !important}
+.logoDiv a span {
+	font-weight: normal !important;
+	font-family: Helvetica,Roboto,Arial,sans-serif !important;
+	color: #9ea0a3 !important;}
+.video-label-box span, .trc-main-label span{text-align: center !important;} 
+
+/*for 468px*/
+.thumbnails-468 .trc_spotlight_item{
+	margin-top: 1px !important;
+	width:97.5% !important;
+	box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+	-moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+	-o-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 5px !important;
+	overflow: hidden !important;
+	background: #fff !important;}
+	.thumbnails-468 .video-label-box span,.thumbnails-468 .trc-main-label span{padding-top: 20px  !important;}
+	.thumbnails-468 .video-label {font-size: 1.2em !important;}
+	
+/*for 300px*/	
+.thumbnails-300 .trc_spotlight_item{
+width: 97.5% !important;
+-moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+-webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+-o-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25) !important;
+border-radius: 5px !important;
+overflow: hidden !important;
+background: #fff !important;
+margin-left: 7px;}
+.thumbnails-300 .video-label-box{margin:10px !important;}
+.thumbnails-300 .video-label {font-size: 1.2em !important;}
+.thumbnails-300 .branding {padding-top: 10px  !important;}
+
+/*for 728px*/
+.thumbnails-728 .thumbBlock{border-radius:7px !important}
+/*-------Taboola End---------------------------------------------------------------------------------*/
